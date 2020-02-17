@@ -1,0 +1,27 @@
+<!DOCTYPE html> <html>
+<head>
+<h1> Super Mario's Pizzaria!
+<html>
+<img src="https://recipes.fandom.com/wiki/Delicious_Pizza" alt="It's A Me, A Mario!">
+
+<p> One of the finest pizzarias in all of Italy!</p>
+<p> Please order <a href="#orderform">Below>
+</head>
+
+<body>
+<h2 id="orderform"Order Form>
+<form action="/submit your order">
+<label for="small"> <input id="small" type="radio" checked name="pizzasize" value="small"Small></label>
+<label for="medium"> <input id="medium" type="radio" name="pizzasize" value="medium"Medium></label>
+<label for="large"> <input id="large" type="radio" name="pizzasize" value="large"Large></label>
+<label for="extralarge"> <input id="extralarge" type="radio" name="pizzasize" value="extralarge"Extra Large></label>
+</h2>
+</body>
+
+<h2>Toppings
+<label for="pepperoni"> <input id="pepperoni" type="checkbox" name="toppings" value="pepperoni"Pepperoni></label>
+<label for="sausage"> <input id="sausage" type="checkbox" name="toppings" value="sausage"Sausage></label>
+<label for="meatball"> <input id="meatball" type="checkbox" name="toppings" value="meatball"Meatball></label>
+<label for="anchovies"> <input id="anchovies" type="checkbox" name="toppings" value="anchovies"Anchovies></label>
+<label for="tacostyle"> <input id="tacostyle" type="checkbox" name="toppings" value="tacostyle"Taco Style></label>
+</form>
